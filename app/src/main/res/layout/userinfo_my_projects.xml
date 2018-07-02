@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#f9f4f4"
+    tools:context="com.example.mohamed.partner.View.userInfo.MyProjects">
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/recyclerhome"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/d"
+        android:layout_marginTop="5dp" />
+</android.support.constraint.ConstraintLayout>
